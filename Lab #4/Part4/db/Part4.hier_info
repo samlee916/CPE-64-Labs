@@ -1,0 +1,13 @@
+|Part4
+PR => Q.IN1
+PR => nand1.IN1
+CR => QN.IN0
+CR => nand3.IN1
+CR => S.IN1
+CLK => S.IN1
+CLK => nand2.IN1
+D => nand3.IN0
+Q <= Q.DB_MAX_OUTPUT_PORT_TYPE
+QN <= QN.DB_MAX_OUTPUT_PORT_TYPE
+
+
